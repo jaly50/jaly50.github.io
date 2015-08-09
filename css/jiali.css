@@ -1,0 +1,69 @@
+/*!
+ * Start Bootstrap - Portfolio Item HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ * Edited by Jiali Chen
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+.row {
+	margin-right: 30px;
+	margin-left: 30px
+}
+
+.main-profile{
+	position: relative;
+	float: left;
+	display: inline;
+	text-align: right;
+	margin: 10px 0px 10px 30px;
+	clear: none; 
+	width: 50%;
+}
+.main-content{
+  float: left;
+  text-align: left;
+  margin: 50px 10px 10px 15px;
+  display: inline;
+  width: 40%;
+  clear: none; 
+}
+#name{
+	
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 300%;
+
+}
+#job-title{
+	color: #3366FF
+}
+
+#profile{
+border-radius: 50%;
+   max-width: 75%;
+    height: auto;
+
+
+}
+
+li {
+    display: inline;
+}
+#icon{
+border-radius: 50%;
+   max-width: 15%;
+    height: auto;
+
+
+}
+
+footer {
+    margin: 50px 0;
+}
